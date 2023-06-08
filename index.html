@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY JAVASCRIPT DAY TWO EXPERIENCE</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="icons/all.min.css">
+    <style>
+        .title h2{
+            font-size: 25px;
+            
+        }
+        .variable b{
+            font-size: 18px;
+        }
+        .variable h2{
+            font-size: 15px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="bg-success">
+        <h2 id="title" class="text-center p-4"></h2>
+    </div>
+    <div class="container-fluid">
+        <h2 id="Variable"></h2>
+        <p id="meaning"></p>
+        <p id="Detail1"></p>
+        <h2 id="Decl"></h2>
+        <p id="Detail2"></p>
+        <h2 id="Ass"></h2>
+        <p id="detail3"></p>
+        <h2 id="data"></h2>
+        <p id="detail4"></p>
+        <h2 id="rule"></h2>
+        <p id="rules"></p>
+    </div>
+
+    <script>
+        document.getElementById('title').innerHTML='MY JAVASCRIPT DAY TWO EXPERIENCE'
+        document.getElementById('Variable').innerHTML='VARIABLE'
+        document.getElementById('meaning').innerHTML='VARIABLE: <b>VARIABLE</b> is a reserved memory in a computer that is used to store values.'
+        document.getElementById('Detail1').innerHTML='For Example, b = 0-4y-2z/3; Variable b stores a value of "0-4y-2z/3".<br> The following keywords are used to declare variables in Javascript:<br><ul><li>Let</li><br><li>Var</li><br><li>Const: It means Constant. It is used to assign a permanent value on a declared variable that wont be altered or changed later.<br>For Example,<br> Const Pi = 3.142 <br> where;<br>Const serves as the keyword, Pi is the variable name and 3.142 is the permanent assigned value of Pi.</li>'
+        document.getElementById('Decl').innerHTML='VARIABLE DECLARATION'
+        document.getElementById('Detail2').innerHTML='This is the form of declaring variable without assigning value to it.<br>For Example, <br> let a;<br>let x;<br>var z;'
+        document.getElementById('Ass').innerHTML='VARIABLE ASSIGNMENT'
+        document.getElementById('detail3').innerHTML='This is the process or form of assigning value to a variable.<br>For Example;<br>a = 2;<br>c = 5;<br>If you declare a variable without assigning value to it, it will read "undefined" when you output/print it using "console.log()".'
+        document.getElementById('data').innerHTML='DATA TYPE'
+        document.getElementById('detail4').innerHTML='This is the type of data used in Javascript.<br><ol><li>Number</li><br><li>String</li><br><li>Object</li><br><li>Boolean</li><br><li>Null</li><br><li>Undefined</li><br><li>BigInt</li><br><li>Symbol</li><br>Number:It is a numeric value or data type. It can be a decimal number or whole number.e.g 10, 99.5,11, 77.9901, e.t.c.<br><br>String: It is a concatenation or combination of two or more characters. It must be in a single or double quote.<br><br>An Array stores objects of the same data type.<br><br>Boolean: This is a true or false value.<br><br>Null: This is an empty or zero value.<br><br>BigInt: This is a data type that can only accept a maximum value of 15.<br><br>Symbol: It is a special character. '
+        document.getElementById('rule').innerHTML='RULES OF DECLARING VARIABLES'
+        document.getElementById('rules').innerHTML='<ol><li>A variable cannot start with a number but a number can be used after a letter e.g <br> let 2a = 10 is incorrect or not valid<br>let a2 = 10 is correct or valid.<br><li>Special characters except underscore and hyphen should not be used. For example, <br> let a @ f = 9 is invalid <br> let w_v = 5 is valid.<br><li>Keywords can not be used. For example, <br>let var = "..." is invalid<br>let let = "..." is invalid<br>let const = "..." is invalid<br>let A = 3 is valid.'
+    
+    
+    
+    
+    </script>
+ <script src="bootstrap.bundle.min.js"></script>   
+</body>
+</html>
